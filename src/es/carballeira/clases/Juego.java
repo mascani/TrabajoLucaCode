@@ -1,7 +1,9 @@
 package es.carballeira.clases;
 
 import java.util.Scanner;
-
+/**
+ * Clase Juego que permite inicializar una partida
+ */
 public class Juego {
     private Tablero tablero;
     private int intentos;
