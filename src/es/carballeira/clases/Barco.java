@@ -5,7 +5,9 @@ public class Barco {
     private int[] fila;
     private int[] columna;
     private int impactos;
-
+/**
+ * Constructor con atributo tamaño.
+ */
     public Barco(int tamaño) {
         this.tamaño = tamaño;
         this.fila = new int[tamaño];

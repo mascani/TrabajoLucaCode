@@ -7,7 +7,9 @@ public class Tablero {
     private Barco[] barcos;
     private int tamanyo;
     private Random rand;
-
+/**
+ * Constructor con argumento tamaño y numero de Barcos.
+ */
     public Tablero(int tamanyo, int numeroDeBarcos) {
         this.tamanyo = tamanyo;
         this.tablero = new char[tamanyo][tamanyo];
